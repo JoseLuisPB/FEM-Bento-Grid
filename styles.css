@@ -15,7 +15,7 @@
 
 body{
   font-size: var(--font-size);
-  background-color: grey;
+  background-color: black;
 }
 
 @font-face {
@@ -267,15 +267,12 @@ body{
 
   .text{
     font-size: 1.25rem;
+    margin-bottom: 1rem;
   }
 
   @media (max-width: 480px){
     order: 6;
-
-    .text{
-      margin-bottom: 1rem;
-    }
-
+    
     .img-style{
       height: 5rem;
       width: 13rem;
@@ -317,11 +314,13 @@ body{
   } 
 }
 
-.attribution { 
-  font-size: 11px; 
+.attribution {
+  color: white;
+  margin-top: 1rem; 
+  font-size: 14px; 
   text-align: center; 
 }
     
 .attribution a { 
-  color: hsl(228, 45%, 44%); 
+  color: limegreen; 
 }
